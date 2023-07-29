@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "removeComments": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "ES6",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "incremental": true,
+        "allowJs": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "typeRoots": ["node_modules/@types/**/*", "src/types/**/*"],
+    },
+    "include": ["src/**/*", "packages/**/*"],
+    "exclude": ["node_modules/**/*", "build/**/*", "error/**/*"]
+}
